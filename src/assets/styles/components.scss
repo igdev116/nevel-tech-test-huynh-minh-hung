@@ -1,0 +1,55 @@
+@layer components {
+  .container {
+    @apply w-[1440px] max-w-full mx-auto px-4 lg:px-0;
+
+    &-pl {
+      @apply pr-0;
+    }
+  }
+
+  .t {
+    &-h1 {
+      @apply font-extrabold text-[42px] leading-[58.8px];
+    }
+
+    &-h3 {
+      @apply font-medium text-[24px] leading-[31.2px];
+    }
+
+    &-link-upper {
+      @apply font-medium text-[14px] leading-[19.6px];
+    }
+
+    &-regular-upper {
+      @apply font-normal text-[13px] leading-[14.3px];
+    }
+
+    &-regular {
+      @apply font-normal text-[15px] leading-[21px];
+    }
+
+    &-button-upper {
+      @apply font-normal text-[14px] leading-[15.4px];
+    }
+
+    &-semibold {
+      @apply font-semibold text-[21px] leading-[29.4px];
+    }
+
+    &-link {
+      @apply font-normal text-[14px] lg:text-[16px] leading-[14px] lg:leading-[22.4px];
+    }
+
+    &-medium {
+      @apply font-medium text-[15px] leading-[21px];
+    }
+
+    &-medium-title {
+      @apply font-medium text-[32px] leading-[46.24px];
+    }
+
+    &-medium-upper {
+      @apply font-medium text-[14px] leading-[14px];
+    }
+  }
+}
